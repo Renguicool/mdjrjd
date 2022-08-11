@@ -1,0 +1,2685 @@
+-- Luazifier v0.1
+
+-- Settings: Mode > Table | Custom Name > false | Security > Off
+
+-- Setup:
+
+Luazifier = {} 
+
+setmetatable(Luazifier, {__metatable = "Don' t touch my table P-Pervert!"})
+
+-- Instances:
+
+Luazifier.ScreenGui1 = Instance.new("ScreenGui", game:GetService("CoreGui"))
+
+Luazifier.Frame1 = Instance.new("Frame", Luazifier.ScreenGui1)
+
+Luazifier.ImageLabel1 = Instance.new("ImageLabel", Luazifier.Frame1)
+
+Luazifier.Frame2 = Instance.new("Frame", Luazifier.Frame1)
+
+Luazifier.TextLabel1 = Instance.new("TextLabel", Luazifier.Frame2)
+
+Luazifier.Frame3 = Instance.new("Frame", Luazifier.Frame1)
+
+Luazifier.TextLabel2 = Instance.new("TextLabel", Luazifier.Frame3)
+
+-- Properties:
+
+Luazifier.ScreenGui1.DisplayOrder = 0
+
+Luazifier.ScreenGui1.Enabled = true
+
+Luazifier.ScreenGui1.IgnoreGuiInset = false
+
+Luazifier.ScreenGui1.Name = "Support Ukraine"
+
+Luazifier.ScreenGui1.ResetOnSpawn = true
+
+Luazifier.ScreenGui1.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Luazifier.ScreenGui1.Archivable = true
+
+Luazifier.ScreenGui1.AutoLocalize = true
+
+Luazifier.Frame1.Active = false
+
+Luazifier.Frame1.AnchorPoint = Vector2.new(0.5, 0.5)
+
+Luazifier.Frame1.BackgroundColor3 = Color3.new(1, 1, 1)
+
+Luazifier.Frame1.BackgroundTransparency = 1
+
+Luazifier.Frame1.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+
+Luazifier.Frame1.BorderSizePixel = 1
+
+Luazifier.Frame1.LayoutOrder = 0
+
+Luazifier.Frame1.Name = "SupportFrame"
+
+Luazifier.Frame1.Position = UDim2.new(0.5, 0, 0.5, 0)
+
+Luazifier.Frame1.Rotation = 0
+
+Luazifier.Frame1.Selectable = false
+
+Luazifier.Frame1.Size = UDim2.new(0, 546, 0, 100)
+
+Luazifier.Frame1.SizeConstraint = Enum.SizeConstraint.RelativeXY
+
+Luazifier.Frame1.Style = Enum.FrameStyle.Custom
+
+Luazifier.Frame1.Visible = true
+
+Luazifier.Frame1.ZIndex = 1
+
+Luazifier.Frame1.Archivable = true
+
+Luazifier.Frame1.ClipsDescendants = false
+
+Luazifier.Frame1.AutoLocalize = true
+
+Luazifier.ImageLabel1.Active = false
+
+Luazifier.ImageLabel1.AnchorPoint = Vector2.new(0, 0)
+
+Luazifier.ImageLabel1.BackgroundColor3 = Color3.new(1, 1, 1)
+
+Luazifier.ImageLabel1.BackgroundTransparency = 1
+
+Luazifier.ImageLabel1.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+
+Luazifier.ImageLabel1.BorderSizePixel = 0
+
+Luazifier.ImageLabel1.LayoutOrder = 0
+
+Luazifier.ImageLabel1.Name = "image"
+
+Luazifier.ImageLabel1.Position = UDim2.new(0.41844692826271057, 0, 0.04678363725543022, 0)
+
+Luazifier.ImageLabel1.Rotation = 0
+
+Luazifier.ImageLabel1.Selectable = false
+
+Luazifier.ImageLabel1.Size = UDim2.new(0, 90, 0, 90)
+
+Luazifier.ImageLabel1.SizeConstraint = Enum.SizeConstraint.RelativeXY
+
+Luazifier.ImageLabel1.Visible = true
+
+Luazifier.ImageLabel1.ZIndex = 1
+
+Luazifier.ImageLabel1.Archivable = true
+
+Luazifier.ImageLabel1.ClipsDescendants = false
+
+Luazifier.ImageLabel1.AutoLocalize = true
+
+Luazifier.ImageLabel1.Image = "rbxthumb://id=10374732337&type=Asset&w=420&h=420"
+
+Luazifier.ImageLabel1.ImageColor3 = Color3.new(1, 1, 1)
+
+Luazifier.ImageLabel1.ImageRectOffset = Vector2.new(0, 0)
+
+Luazifier.ImageLabel1.ImageRectSize = Vector2.new(0, 0)
+
+Luazifier.ImageLabel1.ImageTransparency = 1
+
+Luazifier.ImageLabel1.ScaleType = Enum.ScaleType.Stretch
+
+Luazifier.ImageLabel1.SliceScale = 1
+
+Luazifier.Frame2.Active = false
+
+Luazifier.Frame2.AnchorPoint = Vector2.new(0, 0)
+
+Luazifier.Frame2.BackgroundColor3 = Color3.new(1, 1, 1)
+
+Luazifier.Frame2.BackgroundTransparency = 1
+
+Luazifier.Frame2.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+
+Luazifier.Frame2.BorderSizePixel = 1
+
+Luazifier.Frame2.LayoutOrder = 0
+
+Luazifier.Frame2.Name = "RightBlock"
+
+Luazifier.Frame2.Position = UDim2.new(0, 0, 0, 0)
+
+Luazifier.Frame2.Rotation = 0
+
+Luazifier.Frame2.Selectable = false
+
+Luazifier.Frame2.Size = UDim2.new(0, 227, 0, 100)
+
+Luazifier.Frame2.SizeConstraint = Enum.SizeConstraint.RelativeXY
+
+Luazifier.Frame2.Style = Enum.FrameStyle.Custom
+
+Luazifier.Frame2.Visible = true
+
+Luazifier.Frame2.ZIndex = 1
+
+Luazifier.Frame2.Archivable = true
+
+Luazifier.Frame2.ClipsDescendants = true
+
+Luazifier.Frame2.AutoLocalize = true
+
+Luazifier.TextLabel1.Active = false
+
+Luazifier.TextLabel1.AnchorPoint = Vector2.new(0, 0)
+
+Luazifier.TextLabel1.BackgroundColor3 = Color3.new(1, 1, 1)
+
+Luazifier.TextLabel1.BackgroundTransparency = 1
+
+Luazifier.TextLabel1.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+
+Luazifier.TextLabel1.BorderSizePixel = 1
+
+Luazifier.TextLabel1.LayoutOrder = 0
+
+Luazifier.TextLabel1.Name = "thanks"
+
+Luazifier.TextLabel1.Position = UDim2.new(0.996688961982727, 0, 0.25017544627189636, 0)
+
+Luazifier.TextLabel1.Rotation = 0
+
+Luazifier.TextLabel1.Selectable = false
+
+Luazifier.TextLabel1.Size = UDim2.new(0, 228, 0, 50)
+
+Luazifier.TextLabel1.SizeConstraint = Enum.SizeConstraint.RelativeXY
+
+Luazifier.TextLabel1.Visible = true
+
+Luazifier.TextLabel1.ZIndex = 1
+
+Luazifier.TextLabel1.Archivable = true
+
+Luazifier.TextLabel1.ClipsDescendants = false
+
+Luazifier.TextLabel1.AutoLocalize = true
+
+Luazifier.TextLabel1.Font = Enum.Font.DenkOne
+
+Luazifier.TextLabel1.Text = "[👑]REN GUI v2.4!"
+
+Luazifier.TextLabel1.TextColor3 = Color3.new(1, 1, 1)
+
+Luazifier.TextLabel1.TextScaled = false
+
+Luazifier.TextLabel1.TextSize = 35
+
+Luazifier.TextLabel1.TextStrokeColor3 = Color3.new(0, 0, 0)
+
+Luazifier.TextLabel1.TextStrokeTransparency = 1
+
+Luazifier.TextLabel1.TextTransparency = 0
+
+Luazifier.TextLabel1.TextTruncate = Enum.TextTruncate.None
+
+Luazifier.TextLabel1.TextWrapped = false
+
+Luazifier.TextLabel1.TextXAlignment = Enum.TextXAlignment.Center
+
+Luazifier.TextLabel1.TextYAlignment = Enum.TextYAlignment.Center
+
+Luazifier.Frame3.Active = false
+
+Luazifier.Frame3.AnchorPoint = Vector2.new(0, 0)
+
+Luazifier.Frame3.BackgroundColor3 = Color3.new(1, 1, 1)
+
+Luazifier.Frame3.BackgroundTransparency = 1
+
+Luazifier.Frame3.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+
+Luazifier.Frame3.BorderSizePixel = 1
+
+Luazifier.Frame3.LayoutOrder = 0
+
+Luazifier.Frame3.Name = "LeftBlock"
+
+Luazifier.Frame3.Position = UDim2.new(0.5824176073074341, 0, 0, 0)
+
+Luazifier.Frame3.Rotation = 0
+
+Luazifier.Frame3.Selectable = false
+
+Luazifier.Frame3.Size = UDim2.new(0, 228, 0, 100)
+
+Luazifier.Frame3.SizeConstraint = Enum.SizeConstraint.RelativeXY
+
+Luazifier.Frame3.Style = Enum.FrameStyle.Custom
+
+Luazifier.Frame3.Visible = true
+
+Luazifier.Frame3.ZIndex = 1
+
+Luazifier.Frame3.Archivable = true
+
+Luazifier.Frame3.ClipsDescendants = true
+
+Luazifier.Frame3.AutoLocalize = true
+
+Luazifier.TextLabel2.Active = false
+
+Luazifier.TextLabel2.AnchorPoint = Vector2.new(0, 0)
+
+Luazifier.TextLabel2.BackgroundColor3 = Color3.new(1, 1, 1)
+
+Luazifier.TextLabel2.BackgroundTransparency = 1
+
+Luazifier.TextLabel2.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+
+Luazifier.TextLabel2.BorderSizePixel = 1
+
+Luazifier.TextLabel2.LayoutOrder = 0
+
+Luazifier.TextLabel2.Name = "ty"
+
+Luazifier.TextLabel2.Position = UDim2.new(-1.0022845268249512, 0, 0.25017544627189636, 0)
+
+Luazifier.TextLabel2.Rotation = 0
+
+Luazifier.TextLabel2.Selectable = false
+
+Luazifier.TextLabel2.Size = UDim2.new(0, 228, 0, 50)
+
+Luazifier.TextLabel2.SizeConstraint = Enum.SizeConstraint.RelativeXY
+
+Luazifier.TextLabel2.Visible = true
+
+Luazifier.TextLabel2.ZIndex = 1
+
+Luazifier.TextLabel2.Archivable = true
+
+Luazifier.TextLabel2.ClipsDescendants = false
+
+Luazifier.TextLabel2.AutoLocalize = true
+
+Luazifier.TextLabel2.Font = Enum.Font.DenkOne
+
+Luazifier.TextLabel2.Text = "thx for Using!⭐"
+
+Luazifier.TextLabel2.TextColor3 = Color3.new(1, 1, 1)
+
+Luazifier.TextLabel2.TextScaled = false
+
+Luazifier.TextLabel2.TextSize = 35
+
+Luazifier.TextLabel2.TextStrokeColor3 = Color3.new(0, 0, 0)
+
+Luazifier.TextLabel2.TextStrokeTransparency = 1
+
+Luazifier.TextLabel2.TextTransparency = 0
+
+Luazifier.TextLabel2.TextTruncate = Enum.TextTruncate.None
+
+Luazifier.TextLabel2.TextWrapped = false
+
+Luazifier.TextLabel2.TextXAlignment = Enum.TextXAlignment.Center
+
+Luazifier.TextLabel2.TextYAlignment = Enum.TextYAlignment.Center
+
+-- Scripts:
+
+local getByName = function(N)
+
+    for i,v in pairs(Luazifier) do
+
+        if v.Name and v.Name == N then
+
+            return v
+
+        end
+
+    end
+
+    return nil
+
+end
+
+local image = getByName("image")
+
+local LeftSideText = getByName("thanks")
+
+local RightSideText = getByName("ty")
+
+while task.wait() do
+
+    if image.ImageTransparency == 0 then
+
+        break
+
+    end
+
+    image.ImageTransparency = image.ImageTransparency - 0.01
+
+end
+
+repeat task.wait() until image.ImageTransparency == 0
+
+local OriginalPositions = {}
+
+OriginalPositions[1] = LeftSideText.Position
+
+OriginalPositions[2] = RightSideText.Position
+
+LeftSideText:TweenPosition(UDim2.new(0, 0, 0.25, 0), Enum.EasingDirection.Out, Enum.EasingStyle.Quint, 1)
+
+task.wait(1)
+
+RightSideText:TweenPosition(UDim2.new(0, 0, 0.25, 0), Enum.EasingDirection.Out, Enum.EasingStyle.Quint, 1)
+
+task.wait(2)
+
+LeftSideText:TweenPosition(OriginalPositions[1], Enum.EasingDirection.Out, Enum.EasingStyle.Quint, 1)
+
+task.wait(1)
+
+RightSideText:TweenPosition(OriginalPositions[2], Enum.EasingDirection.Out, Enum.EasingStyle.Quint, 1)
+
+task.wait(1)
+
+while task.wait() do
+
+    if image.ImageTransparency == 0 then
+
+        break
+
+    end
+
+    image.ImageTransparency = image.ImageTransparency + 0.00
+
+end
+
+repeat task.wait() until image.ImageTransparency == 0
+
+getByName("Support Ukraine"):Destroy()
+
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+
+local Window = Library.CreateLib("ren gui", "Synapse")
+
+-- tabs
+
+local Tab1 = Window:NewTab("main")
+
+local Tab1Section = Tab1:NewSection("main")
+
+local Tab2 = Window:NewTab("fun stuff")
+
+local Tab2Section = Tab2:NewSection("fun stuff")
+
+Tab1Section:NewLabel("more scripts")
+
+Tab1Section:NewToggle("toggle speed", "sussy speedy", function(state)
+
+    if state then
+
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 100
+
+    else
+
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+
+    end
+
+end)
+
+Tab1Section:NewToggle("Toggle Fov", "good", function(state)
+
+    if state then
+
+        workspace.CurrentCamera.FieldOfView=120
+
+    else
+
+        workspace.CurrentCamera.FieldOfView=70
+
+    end
+
+end)
+
+Tab1Section:NewButton("super speed (c) dh", "pc only ill make for mob soon", function()
+
+  
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/angeloX041/Speedc/main/SuperSpeedC ", true))()
+
+end)
+
+Tab1Section:NewButton("keyboard", "for mobile", function()
+
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/manimcool21/Keyboard-FE/main/Protected%20(3).lua'),true))()
+
+end)
+
+Tab1Section:NewButton("faded", "ctto", function()
+
+        _G.Toggles = "V" -- You can put any keybind to hide the gui
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/Faded/main/YesEpic", true))()
+
+end)
+
+Tab1Section:NewButton("aimlock", "ctto", function()
+
+    local configs = {
+
+    main = {
+
+        enabled = true,
+
+        aimlockkey = "q",
+
+        prediction = 0.12453,
+
+        aimpart = 'HumanoidRootPart', -- Head, UpperTorso, HumanoidRootPart, LowerTorso
+
+        notifications = true
+
+    }
+
+}
+
+-- box / marker settings
+
+local boxsettings = {
+
+    box = {
+
+        Showbox = true,
+
+        boxsize = Vector3.new(3.3, 3, 2.8), -- Box Size
+
+        markercolor = Color3.fromRGB(255, 255, 255), -- Marrker Color
+
+        markersize = UDim2.new(1, 0, 3, 0) -- Marker Size
+
+    }
+
+}
+
+-- dont mess with anything below
+
+local box = Instance.new("Part", game.Workspace)
+
+local Mouse = game.Players.LocalPlayer:GetMouse()
+
+function makemarker(Parent, Adornee, Color, Size, Size2)
+
+    local box = Instance.new("BillboardGui", Parent)
+
+    box.Name = "PRIVATE-REWRITE!"
+
+    box.Adornee = Adornee
+
+    box.Size = UDim2.new(Size, Size2, Size, Size2)
+
+    box.AlwaysOnTop = true
+
+    local a = Instance.new("Frame", box)
+
+    a.Size = boxsettings.box.markersize
+
+    a.BackgroundColor3 = Color
+
+    local g = Instance.new("UICorner", a)
+
+    g.CornerRadius = UDim.new(50, 25)
+
+    return (box)
+
+end
+
+local Plr
+
+Mouse.KeyDown:Connect(function(KeyPressed)
+
+    if KeyPressed == (configs.main.aimlockkey) then
+
+        if configs.main.enabled == true then
+
+            configs.main.enabled = false
+
+            if configs.main.notifications == true then
+
+                Plr = FindClosestUser()
+
+                game.StarterGui:SetCore("SendNotification", {
+
+                    Title = "v4mp#9999",
+
+                    Text = "Unlocked | v4mp#9999;"
+
+                })
+
+            end
+
+        else
+
+            Plr = FindClosestUser()
+
+            configs.main.enabled = true
+
+            if configs.main.notifications == true then
+
+                game.StarterGui:SetCore("SendNotification", {
+
+                    Title = "v4mp#9999",
+
+                    Text = "Locked On | v4mp#9999;  " .. tostring(Plr.Character.Humanoid.DisplayName)
+
+                })
+
+            end
+
+        end
+
+    end
+
+end)
+
+local data = game.Players:GetPlayers()
+
+function noob(player)
+
+    local character
+
+    repeat
+
+        wait()
+
+    until player.Character
+
+    local handler = makemarker(guimain, player.Character:WaitForChild(configs.main.aimpart),
+
+        Color3.fromRGB(107, 184, 255), 0.10, 8)
+
+    handler.Name = player.Name
+
+    player.CharacterAdded:connect(function(Char)
+
+        handler.Adornee = Char:WaitForChild("HumanoidRootPart")
+
+    end)
+
+end
+
+for i = 1, #data do
+
+    if data[i] ~= game.Players.LocalPlayer then
+
+        noob(data[i])
+
+    end
+
+end
+
+game.Players.PlayerAdded:connect(function(Player)
+
+    noob(Player)
+
+end)
+
+spawn(function()
+
+    box.Anchored = true
+
+    box.CanCollide = false
+
+    box.Size = boxsettings.box.boxsize
+
+    if boxsettings.box.Showbox == true then
+
+        box.Transparency = 0.70
+
+    else
+
+        box.Transparency = 1
+
+    end
+
+    makemarker(box, box, boxsettings.box.markercolor, 0.40, 1)
+
+end)
+
+function FindClosestUser()
+
+    local closestPlayer
+
+    local ShortestDistance = 300
+
+    for i, v in pairs(game.Players:GetPlayers()) do
+
+        if v ~= game.Players.LocalPlayer and v.Character and v.Character:FindFirstChild("Humanoid") and
+
+            v.Character.Humanoid.Health ~= 0 and v.Character:FindFirstChild("HumanoidRootPart") then
+
+            local pos = game:GetService "Workspace".CurrentCamera:WorldToViewportPoint(v.Character.PrimaryPart.Position)
+
+            local magnitude = (Vector2.new(pos.X, pos.Y) -
+
+                                  Vector2.new(game.Players.LocalPlayer:GetMouse().X,
+
+                    game.Players.LocalPlayer:GetMouse().Y)).magnitude
+
+            if magnitude < ShortestDistance then
+
+                closestPlayer = v
+
+                ShortestDistance = magnitude
+
+            end
+
+        end
+
+    end
+
+    return closestPlayer
+
+end
+
+game:GetService "RunService".Stepped:connect(function()
+
+    if configs.main.enabled and Plr.Character and Plr.Character:FindFirstChild("HumanoidRootPart") then
+
+        box.CFrame = CFrame.new(Plr.Character[configs.main.aimpart].Position +
+
+                                    (Plr.Character.UpperTorso.Velocity * configs.main.prediction))
+
+    else
+
+        box.CFrame = CFrame.new(0, 9999, 0)
+
+    end
+
+end)
+
+repeat
+
+    wait()
+
+until game:IsLoaded()
+
+local mt = getrawmetatable(game)
+
+local old = mt.__namecall
+
+setreadonly(mt, false)
+
+mt.__namecall = newcclosure(function(...)
+
+    local args = {...}
+
+    if configs.main.enabled and getnamecallmethod() == "FireServer" and args[2] == "UpdateMousePos" then
+
+        args[3] = Plr.Character[configs.main.aimpart].Position +
+
+                      (Plr.Character[configs.main.aimpart].Velocity * configs.main.prediction)
+
+        return old(unpack(args))
+
+    end
+
+    return old(...)
+
+end)
+
+end)
+
+Tab2Section:NewButton("vhub", "ctto", function()
+
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/itsyaboivincentt5315/script/main/VHub.txt", true))()
+
+end)
+
+Tab2Section:NewButton("target gui", "ctto", function()
+
+    --VictimMenu DH
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GS21Official/DH-VictimMenu-Script/main/Dh%20VictimMenu%3A%20Script"))()
+
+end)
+
+Tab2Section:NewButton("godmode", "good", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/cypherdh/GodMode-V3/main/script"))()
+
+end)
+
+Tab1Section:NewTextBox("shit", "shit", function(shit)
+
+	local args = {    [1] = "$h¡t",
+
+    [2] = "All"
+
+}
+
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+
+end)
+
+Tab1Section:NewTextBox("ayo", "ayo", function(ayo)
+
+local args = {
+
+    [1] = "$€¢",
+
+    [2] = "All"
+
+}
+
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+
+end)
+
+Tab1Section:NewButton("makes better fps", "no lag", function()
+
+    local ScreenGui = Instance.new("ScreenGui")
+
+local Frame = Instance.new("Frame")
+
+local logo = Instance.new("TextLabel")
+
+local skiddedlabel = Instance.new("TextLabel")
+
+local credit = Instance.new("TextLabel")
+
+local booster2 = Instance.new("TextButton")
+
+local booster1 = Instance.new("TextButton")
+
+local hide = Instance.new("TextLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+Frame.Parent = ScreenGui
+
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+Frame.BorderColor3 = Color3.fromRGB(255, 255, 255)
+
+Frame.Position = UDim2.new(0.432935894, 0, 0.0453987792, 0)
+
+Frame.Size = UDim2.new(0, 676, 0, 455)
+
+Frame.Active = true
+
+Frame.Draggable = true
+
+logo.Name = "logo"
+
+logo.Parent = Frame
+
+logo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+logo.BorderColor3 = Color3.fromRGB(255, 255, 255)
+
+logo.Size = UDim2.new(0, 200, 0, 50)
+
+logo.Font = Enum.Font.SourceSans
+
+logo.Text = "FPS+"
+
+logo.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+logo.TextScaled = true
+
+logo.TextSize = 14.000
+
+logo.TextWrapped = true
+
+skiddedlabel.Name = "skiddedlabel"
+
+skiddedlabel.Parent = Frame
+
+skiddedlabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+skiddedlabel.BorderColor3 = Color3.fromRGB(255, 255, 255)
+
+skiddedlabel.Position = UDim2.new(0, 0, 0.890109897, 0)
+
+skiddedlabel.Size = UDim2.new(0, 200, 0, 50)
+
+skiddedlabel.Font = Enum.Font.SourceSans
+
+skiddedlabel.Text = "Everythings Skidded"
+
+skiddedlabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+skiddedlabel.TextScaled = true
+
+skiddedlabel.TextSize = 14.000
+
+skiddedlabel.TextWrapped = true
+
+credit.Name = "credit"
+
+credit.Parent = Frame
+
+credit.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+credit.BorderColor3 = Color3.fromRGB(255, 255, 255)
+
+credit.Position = UDim2.new(0.703129292, 0, 0.890109897, 0)
+
+credit.Size = UDim2.new(0, 200, 0, 50)
+
+credit.Font = Enum.Font.SourceSans
+
+credit.Text = "Made BY Ren"
+
+credit.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+credit.TextScaled = true
+
+credit.TextSize = 14.000
+
+credit.TextWrapped = true
+
+booster2.Name = "booster2"
+
+booster2.Parent = Frame
+
+booster2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+booster2.Position = UDim2.new(0.351169914, 0, 0.443956077, 0)
+
+booster2.Size = UDim2.new(0, 200, 0, 50)
+
+booster2.Font = Enum.Font.SourceSans
+
+booster2.Text = "Booster 2"
+
+booster2.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+booster2.TextSize = 14.000
+
+booster2.MouseButton1Down:connect(function()
+
+	local decalsyeeted = true -- Leaving this on makes games look shitty but the fps goes up by at least 20.
+
+	local g = game
+
+	local w = g.Workspace
+
+	local l = g.Lighting
+
+	local t = w.Terrain
+
+	t.WaterWaveSize = 0
+
+	t.WaterWaveSpeed = 0
+
+	t.WaterReflectance = 0
+
+	t.WaterTransparency = 0
+
+	l.GlobalShadows = false
+
+	l.FogEnd = 9e9
+
+	l.Brightness = 0
+
+	settings().Rendering.QualityLevel = "Level01"
+
+	for i, v in pairs(g:GetDescendants()) do
+
+		if v:IsA("Part") or v:IsA("Union") or v:IsA("CornerWedgePart") or v:IsA("TrussPart") then
+
+			v.Material = "Plastic"
+
+			v.Reflectance = 0
+
+		elseif v:IsA("Decal") or v:IsA("Texture") and decalsyeeted then
+
+			v.Transparency = 1
+
+		elseif v:IsA("ParticleEmitter") or v:IsA("Trail") then
+
+			v.Lifetime = NumberRange.new(0)
+
+		elseif v:IsA("Explosion") then
+
+			v.BlastPressure = 1
+
+			v.BlastRadius = 1
+
+		elseif v:IsA("Fire") or v:IsA("SpotLight") or v:IsA("Smoke") then
+
+			v.Enabled = false
+
+		elseif v:IsA("MeshPart") then
+
+			v.Material = "Plastic"
+
+			v.Reflectance = 0
+
+			v.TextureID = 10385902758728957
+
+		end
+
+	end
+
+	for i, e in pairs(l:GetChildren()) do
+
+		if e:IsA("BlurEffect") or e:IsA("SunRaysEffect") or e:IsA("ColorCorrectionEffect") or e:IsA("BloomEffect") or e:IsA("DepthOfFieldEffect") then
+
+			e.Enabled = false
+
+		end
+
+	end
+
+end)
+
+booster1.Name = "booster1"
+
+booster1.Parent = Frame
+
+booster1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+booster1.Position = UDim2.new(0.351169914, 0, 0.303296715, 0)
+
+booster1.Size = UDim2.new(0, 200, 0, 50)
+
+booster1.Font = Enum.Font.SourceSans
+
+booster1.Text = "Booster 1"
+
+booster1.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+booster1.TextSize = 14.000
+
+booster1.MouseButton1Down:connect(function()
+
+	_G.Settings = {
+
+		Players = {
+
+			["Ignore Me"] = true, -- Ignore your Character
+
+			["Ignore Others"] = true -- Ignore other Characters
+
+		},
+
+		Meshes = {
+
+			Destroy = false, -- Destroy Meshes
+
+			LowDetail = true -- Low detail meshes (NOT SURE IT DOES ANYTHING)
+
+		},
+
+		Images = {
+
+			Invisible = true, -- Invisible Images
+
+			LowDetail = false, -- Low detail images (NOT SURE IT DOES ANYTHING)
+
+			Destroy = false, -- Destroy Images
+
+		},
+
+		["No Particles"] = true, -- Disables all ParticleEmitter, Trail, Smoke, Fire and Sparkles
+
+		["No Camera Effects"] = true, -- Disables all PostEffect's (Camera/Lighting Effects)
+
+		["No Explosions"] = true, -- Makes Explosion's invisible
+
+		["No Clothes"] = true, -- Removes Clothing from the game
+
+		["Low Water Graphics"] = true, -- Removes Water Quality
+
+		["No Shadows"] = true, -- Remove Shadows
+
+		["Low Rendering"] = true, -- Lower Rendering
+
+		["Low Quality Parts"] = true -- Lower quality parts
+
+	}
+
+	local Players = game:GetService("Players")
+
+	local BadInstances = {"DataModelMesh", "FaceInstance", "ParticleEmitter", "Trail", "Smoke", "Fire", "Sparkles", "PostEffect", "Explosion", "Clothing", "BasePart"}
+
+	local CanBeEnabled = {"ParticleEmitter", "Trail", "Smoke", "Fire", "Sparkles", "PostEffect"}
+
+	local function PartOfCharacter(Instance)
+
+		for i, v in pairs(Players:GetPlayers()) do
+
+			if v.Character and Instance:IsDescendantOf(v.Character) then
+
+				return true
+
+			end
+
+		end
+
+		return false
+
+	end
+
+	local function ReturnDescendants()
+
+		local Descendants = {}
+
+		WaitNumber = 5000
+
+		if _G.Settings.Players["Ignore Others"] then
+
+			for i, v in pairs(game:GetDescendants()) do
+
+				if not v:IsDescendantOf(Players) and not PartOfCharacter(v) then
+
+					for i2, v2 in pairs(BadInstances) do
+
+						if v:IsA(v2) then
+
+							table.insert(Descendants, v)
+
+						end
+
+					end
+
+				end
+
+				if i == WaitNumber then
+
+					task.wait()
+
+					WaitNumber = WaitNumber + 5000
+
+				end
+
+			end
+
+		elseif _G.Settings.Players["Ignore Me"] then
+
+			for i, v in pairs(game:GetDescendants()) do
+
+				if not v:IsDescendantOf(Players) and not v:IsDescendantOf(ME.Character) then
+
+					for i2, v2 in pairs(BadInstances) do
+
+						if v:IsA(v2) then
+
+							table.insert(Descendants, v)
+
+						end
+
+					end
+
+				end
+
+				if i == WaitNumber then
+
+					task.wait()
+
+					WaitNumber = WaitNumber + 5000
+
+				end
+
+			end
+
+		end
+
+		return Descendants
+
+	end
+
+	local function CheckIfBad(Instance)
+
+		if not Instance:IsDescendantOf(Players) and not PartOfCharacter(Instance) then
+
+			if Instance:IsA("DataModelMesh") then
+
+				if _G.Settings.Meshes.LowDetail then
+
+					sethiddenproperty(Instance, "LODX", Enum.LevelOfDetailSetting.Low)
+
+					sethiddenproperty(Instance, "LODY", Enum.LevelOfDetailSetting.Low)
+
+				elseif _G.Settings.Meshes.Destroy then
+
+					Instance:Destroy()
+
+				end
+
+			elseif Instance:IsA("FaceInstance") then
+
+				if _G.Settings.Images.Invisible then
+
+					Instance.Transparency = 1
+
+				elseif _G.Settings.Images.LowDetail then
+
+					Instance.Shiny = 1
+
+				elseif _G.Settings.Images.Destroy then
+
+					Instance:Destroy()
+
+				end
+
+			elseif table.find(CanBeEnabled, Instance.ClassName) then
+
+				if _G.Settings["No Particles"] or (_G.Settings.Other and _G.Settings.Other["No Particles"]) then
+
+					Instance.Enabled = false
+
+				end
+
+			elseif Instance:IsA("Explosion") then
+
+				if _G.Settings["No Explosions"] or (_G.Settings.Other and _G.Settings.Other["No Explosions"]) then
+
+					Instance.Visible = false
+
+				end
+
+			elseif Instance:IsA("Clothing") then
+
+				if _G.Settings["No Clothes"] or (_G.Settings.Other and _G.Settings.Other["No Clothes"]) then
+
+					Instance:Destroy()
+
+				end
+
+			elseif Instance:IsA("BasePart") then
+
+				if _G.Settings["Low Quality Parts"] or (_G.Settings.Other and _G.Settings.Other["Low Quality Parts"]) then
+
+					Instance.Material = Enum.Material.Plastic
+
+					Instance.Reflectance = 0
+
+				end
+
+			end
+
+		end
+
+	end
+
+	if _G.Settings["Low Water Graphics"] or (_G.Settings.Other and _G.Settings.Other["Low Water Graphics"]) then
+
+		workspace:FindFirstChildOfClass("Terrain").WaterWaveSize = 0
+
+		workspace:FindFirstChildOfClass("Terrain").WaterWaveSpeed = 0
+
+		workspace:FindFirstChildOfClass("Terrain").WaterReflectance = 0
+
+		workspace:FindFirstChildOfClass("Terrain").WaterTransparency = 0
+
+	end
+
+	if _G.Settings["No Shadows"] or (_G.Settings.Other and _G.Settings.Other["No Shadows"]) then
+
+		game:GetService("Lighting").GlobalShadows = false
+
+		game:GetService("Lighting").FogEnd = 9e9
+
+	end
+
+	if _G.Settings["Low Rendering"] or (_G.Settings.Other and _G.Settings.Other["Low Rendering"]) then
+
+		settings().Rendering.QualityLevel = 1
+
+	end
+
+end)
+
+hide.Name = "hide"
+
+hide.Parent = Frame
+
+hide.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+hide.BorderColor3 = Color3.fromRGB(255, 255, 255)
+
+hide.Position = UDim2.new(0.703129292, 0, 0, 0)
+
+hide.Size = UDim2.new(0, 200, 0, 50)
+
+hide.Font = Enum.Font.SourceSans
+
+hide.Text = "To hide gui press p"
+
+hide.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+hide.TextScaled = true
+
+hide.TextSize = 14.000
+
+hide.TextWrapped = true
+
+-- Scripts:
+
+local function EOOUOQ_fake_script() -- Frame.LocalScript 
+
+	local script = Instance.new('LocalScript', Frame)
+
+	player = game.Players.LocalPlayer
+
+	
+
+	player:GetMouse().KeyDown:Connect(function(key)
+
+		if key == "p" and script.Parent.Visible == false then
+
+			script.Parent.Visible = true
+
+		else
+
+			if key == "p" and script.Parent.Visible == true then
+
+				script.Parent.Visible = false
+
+			end
+
+		end
+
+	end)
+
+end
+
+coroutine.wrap(EOOUOQ_fake_script)()
+
+end)
+
+Tab2Section:NewButton("portal", "put name to tp to him/her", function()
+
+    function make_portal_gun_and_GUI()
+
+	portal_gun = Instance.new("Tool")
+
+	portal_gun.Name = "Portal_Gun"
+
+	portal_gun.Parent = workspace
+
+	Handle = Instance.new("Part")
+
+	Handle.Name = "Handle"
+
+	Handle.Parent = portal_gun
+
+	Handle.Color = Color3.fromRGB(231, 231, 236)
+
+	Handle.Material = Enum.Material.Plastic
+
+	Handle.Size = Vector3.new(1.045, 0.453, 0.453)
+
+	Handle.Position = Vector3.new(-10.028, 4.312, 19.112)
+
+	Handle.Orientation = Vector3.new(0, -180, 107.64)
+
+	Handle.BackSurface = Enum.SurfaceType.SmoothNoOutlines
+
+	Handle.BottomSurface = Enum.SurfaceType.SmoothNoOutlines
+
+	Handle.FrontSurface = Enum.SurfaceType.SmoothNoOutlines
+
+	Handle.LeftSurface = Enum.SurfaceType.SmoothNoOutlines
+
+	Handle.RightSurface = Enum.SurfaceType.SmoothNoOutlines
+
+	Handle.TopSurface = Enum.SurfaceType.SmoothNoOutlines
+
+	Union = Instance.new("Part")
+
+	Union.Color = Color3.fromRGB(0, 255, 0)
+
+	Union.Material = Enum.Material.Plastic
+
+	Union.Transparency = 0.45
+
+	Union.Name = "Union"
+
+	Union.Size = Vector3.new(0.304, 0.476, 0.302)
+
+	Union.Position = Vector3.new(-8.972, 5.269, 19.079)
+
+	Union.Orientation = Vector3.new(0, 180, -3.64)
+
+	Union.Parent = portal_gun
+
+	part1 = Instance.new("Part")
+
+	part1.Name = "part1"
+
+	part1.Color = Color3.fromRGB(17, 17, 17)
+
+	part1.Material = Enum.Material.Plastic
+
+	part1.Size = Vector3.new(0.2, 0.24, 0.99)
+
+	part1.Position = Vector3.new(-8.716, 4.926, 19.111)
+
+	part1.Orientation = Vector3.new(0, 180, -3.64)
+
+	part1.BackSurface = Enum.SurfaceType.SmoothNoOutlines
+
+	part1.BottomSurface = Enum.SurfaceType.SmoothNoOutlines
+
+	part1.FrontSurface = Enum.SurfaceType.SmoothNoOutlines
+
+	part1.LeftSurface = Enum.SurfaceType.SmoothNoOutlines
+
+	part1.RightSurface = Enum.SurfaceType.SmoothNoOutlines
+
+	part1.TopSurface = Enum.SurfaceType.SmoothNoOutlines
+
+	part1.Parent = portal_gun
+
+	part2 = Instance.new("Part")
+
+	part2.Name = "part2"
+
+	part2.Color = Color3.fromRGB(231, 231, 236)
+
+	part2.Material = Enum.Material.Plastic
+
+	part2.Size = Vector3.new(1.04, 0.3, 0.48)
+
+	part2.Position = Vector3.new(-9.874, 4.855, 19.095)
+
+	part2.Orientation = Vector3.new(-0.02, 90, 0)
+
+	part2.BackSurface = Enum.SurfaceType.SmoothNoOutlines
+
+	part2.BottomSurface = Enum.SurfaceType.SmoothNoOutlines
+
+	part2.FrontSurface = Enum.SurfaceType.SmoothNoOutlines
+
+	part2.LeftSurface = Enum.SurfaceType.SmoothNoOutlines
+
+	part2.RightSurface = Enum.SurfaceType.SmoothNoOutlines
+
+	part2.TopSurface = Enum.SurfaceType.SmoothNoOutlines
+
+	part2.Shape = Enum.PartType.Cylinder
+
+	part2.Parent = portal_gun
+
+	part3 = Instance.new("Part")
+
+	part3.Name = "part3"
+
+	part3.Color = Color3.fromRGB(17, 17, 17)
+
+	part3.Material = Enum.Material.Plastic
+
+	part3.Size = Vector3.new(0.2, 0.47, 0.45)
+
+	part3.Position = Vector3.new(-8.939, 4.948, 19.086)
+
+	part3.Orientation = Vector3.new(3.47, -90, -90)
+
+	part3.Shape = Enum.PartType.Cylinder
+
+	part3.Parent = portal_gun
+
+	part4 = Instance.new("Part")
+
+	part4.Name = "part4"
+
+	part4.Color = Color3.fromRGB(231, 231, 236)
+
+	part4.Material = Enum.Material.Plastic
+
+	part4.Size = Vector3.new(1.04, 0.3, 0.48)
+
+	part4.Position = Vector3.new(-9.874, 4.845, 19.095)
+
+	part4.Orientation = Vector3.new(-0.02, 90, 0)
+
+	part4.Shape = Enum.PartType.Cylinder
+
+	part4.BackSurface = Enum.SurfaceType.SmoothNoOutlines
+
+	part4.BottomSurface = Enum.SurfaceType.SmoothNoOutlines
+
+	part4.FrontSurface = Enum.SurfaceType.SmoothNoOutlines
+
+	part4.LeftSurface = Enum.SurfaceType.SmoothNoOutlines
+
+	part4.RightSurface = Enum.SurfaceType.SmoothNoOutlines
+
+	part4.TopSurface = Enum.SurfaceType.SmoothNoOutlines
+
+	part4.Parent = portal_gun
+
+	part5 = Instance.new("Part")
+
+	part5.Name = "part5"
+
+	part5.Color = Color3.fromRGB(17, 17, 17)
+
+	part5.Material = Enum.Material.Plastic
+
+	part5.Parent = portal_gun
+
+	part5.Size = Vector3.new(0.2, 0.2, 0.2)
+
+	part5.Position = Vector3.new(-9.894, 4.93, 19.061)
+
+	part5.Orientation = Vector3.new(11.67, -90, -90)
+
+	part6 = Instance.new("Part")
+
+	part6.Name = "part6"
+
+	part6.Color = Color3.fromRGB(0, 255, 0)
+
+	part6.Material = Enum.Material.Neon
+
+	part6.Size = Vector3.new(0.2, 0.31, 0.2)
+
+	part6.Position = Vector3.new(-8.715, 4.919, 19.095)
+
+	part6.Orientation = Vector3.new(0, 180, -3.64)
+
+	part6.Shape = Enum.PartType.Cylinder
+
+	part6.Parent = portal_gun
+
+	part7 = Instance.new("Part")
+
+	part7.Name = "part7"
+
+	part7.Color = Color3.fromRGB(231, 231, 236)
+
+	part7.Material = Enum.Material.Plastic
+
+	part7.Size = Vector3.new(1.04, 0.3, 0.48)
+
+	part7.Position = Vector3.new(-9.874, 4.865, 19.095)
+
+	part7.Orientation = Vector3.new(-0.02, 90, 0)
+
+	part7.BackSurface = Enum.SurfaceType.SmoothNoOutlines
+
+	part7.BottomSurface = Enum.SurfaceType.SmoothNoOutlines
+
+	part7.FrontSurface = Enum.SurfaceType.SmoothNoOutlines
+
+	part7.LeftSurface = Enum.SurfaceType.SmoothNoOutlines
+
+	part7.RightSurface = Enum.SurfaceType.SmoothNoOutlines
+
+	part7.TopSurface = Enum.SurfaceType.SmoothNoOutlines
+
+	part7.Shape = Enum.PartType.Cylinder
+
+	part7.Parent = portal_gun
+
+	part8 = Instance.new("Part")
+
+	part8.Name = "part8"
+
+	part8.Color = Color3.fromRGB(248, 248, 248)
+
+	part8.Material = Enum.Material.SmoothPlastic
+
+	part8.Transparency = 1
+
+	part8.Size = Vector3.new(0.2, 0.2, 0.2)
+
+	part8.Position = Vector3.new(-8.952, 5.2, 19.088)
+
+	part8.Orientation = Vector3.new(0, 0, 3.64)
+
+	part8.Parent = portal_gun
+
+	part8_smoke = Instance.new("Smoke")
+
+	part8_smoke.Color = Color3.fromRGB(82, 255, 82)
+
+	part8_smoke.Size = 0.1
+
+	part8_smoke.RiseVelocity = 8
+
+	part8_smoke.Parent = part8
+
+	part9 = Instance.new("Part")
+
+	part9.Name = "part9"
+
+	part9.Color = Color3.new(117, 0, 0)
+
+	part9.Material = Enum.Material.Plastic
+
+	part9.Size = Vector3.new(0.24, 0.27, 0.54)
+
+	part9.Position = Vector3.new(-9.543, 4.891, 19.086)
+
+	part9.Orientation = Vector3.new(0, 180, -3.64)
+
+	part9.BackSurface = Enum.SurfaceType.SmoothNoOutlines
+
+	part9.BottomSurface = Enum.SurfaceType.SmoothNoOutlines
+
+	part9.FrontSurface = Enum.SurfaceType.SmoothNoOutlines
+
+	part9.LeftSurface = Enum.SurfaceType.SmoothNoOutlines
+
+	part9.RightSurface = Enum.SurfaceType.SmoothNoOutlines
+
+	part9.TopSurface = Enum.SurfaceType.SmoothNoOutlines
+
+	part9_surface_GUI = Instance.new("SurfaceGui")
+
+	part9_surface_GUI.Face = Enum.NormalId.Top
+
+	part9_surface_GUI.CanvasSize = Vector2.new(800, 600)
+
+	part9_surface_GUI.Parent = part9
+
+	part9_textlabel = Instance.new("TextLabel")
+
+	part9_textlabel.Parent = part9_surface_GUI
+
+	part9_textlabel.BackgroundTransparency = 1
+
+	part9_textlabel.BorderSizePixel = 1
+
+	part9_textlabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+	part9_textlabel.Text = "Player"
+
+	part9_textlabel.TextScaled = false
+
+	part9_textlabel.TextSize = 100
+
+	part9_textlabel.TextStrokeTransparency = 1
+
+	part9_textlabel.Size = UDim2.new(1, 0, 1, 0) -- {1, 0},{1, 0}
+
+	part9.Parent = portal_gun
+
+	part10 = Instance.new("Part")
+
+	part10.Name = "part10"
+
+	part10.Color = Color3.fromRGB(0, 255, 0)
+
+	part10.Material = Enum.Material.Neon
+
+	part10.Size = Vector3.new(0.2, 0.31, 0.2)
+
+	part10.Position = Vector3.new(-8.715, 4.919, 19.456)
+
+	part10.Orientation = Vector3.new(0, 180, -3.64)
+
+	part10.Shape = Enum.PartType.Cylinder
+
+	part10.Parent = portal_gun
+
+	part11 = Instance.new("Part")
+
+	part11.Name = "part11"
+
+	part11.Color = Color3.fromRGB(0, 255, 0)
+
+	part11.Size = Vector3.new(0.2, 0.31, 0.2)
+
+	part11.Position = Vector3.new(-8.715, 4.919, 18.765)
+
+	part11.Orientation = Vector3.new(0, 180, -3.64)
+
+	part11.Shape = Enum.PartType.Cylinder
+
+	part11.Parent = portal_gun
+
+	part12 = Instance.new("Part")
+
+	part12.Name = "part12"
+
+	part12.Color = Color3.fromRGB(231, 231, 236)
+
+	part12.Material = Enum.Material.Plastic
+
+	part12.Size = Vector3.new(1.31, 0.27, 1.03)
+
+	part12.Position = Vector3.new(-9.279, 4.886, 19.101)
+
+	part12.Orientation = Vector3.new(0, 180, -3.64)
+
+	part12.BackSurface = Enum.SurfaceType.SmoothNoOutlines
+
+	part12.BottomSurface = Enum.SurfaceType.SmoothNoOutlines
+
+	part12.FrontSurface = Enum.SurfaceType.SmoothNoOutlines
+
+	part12.LeftSurface = Enum.SurfaceType.SmoothNoOutlines
+
+	part12.RightSurface = Enum.SurfaceType.SmoothNoOutlines
+
+	part12.TopSurface = Enum.SurfaceType.SmoothNoOutlines
+
+	part12.Parent = portal_gun
+
+	part14 = Instance.new("Part")
+
+	part14.Name = "part14"
+
+	part14.Color = Color3.fromRGB(231, 231, 236)
+
+	part14.Material = Enum.Material.Plastic
+
+	part14.Size = Vector3.new(1.04, 0.3, 0.48)
+
+	part14.Position = Vector3.new(-9.874, 4.875, 19.095)
+
+	part14.Orientation = Vector3.new(-0.02, 90, 0)
+
+	part14.Shape = Enum.PartType.Cylinder
+
+	part14.BackSurface = Enum.SurfaceType.SmoothNoOutlines
+
+	part14.BottomSurface = Enum.SurfaceType.SmoothNoOutlines
+
+	part14.FrontSurface = Enum.SurfaceType.SmoothNoOutlines
+
+	part14.LeftSurface = Enum.SurfaceType.SmoothNoOutlines
+
+	part14.RightSurface = Enum.SurfaceType.SmoothNoOutlines
+
+	part14.TopSurface = Enum.SurfaceType.SmoothNoOutlines
+
+	part14.Parent = portal_gun
+
+	portal_gun.GripForward = Vector3.new(0, 0, -1)
+
+	portal_gun.GripPos= Vector3.new(0, -0.2, 0)
+
+	portal_gun.GripRight = Vector3.new(0, 0, -1)
+
+	portal_gun.GripUp = Vector3.new(1, 0.015, 0)
+
+	portal_sound = Instance.new("Sound")
+
+	portal_sound.Parent = portal_gun.Handle
+
+	portal_sound.SoundId = "rbxassetid://1013378689"
+
+	portal_sound.Volume = 2.5
+
+	function Weld(x,y)
+
+		local W = Instance.new("Weld")
+
+		W.Part0 = x
+
+		W.Part1 = y
+
+		local CJ = CFrame.new(x.Position)
+
+		local C0 = x.CFrame:inverse()*CJ
+
+		local C1 = y.CFrame:inverse()*CJ
+
+		W.C0 = C0
+
+		W.C1 = C1
+
+		W.Parent = x
+
+	end
+
+	for i,v in pairs(portal_gun:GetChildren()) do
+
+		if v:IsA("Part") then
+
+			Weld(v, portal_gun.Handle)
+
+		end
+
+	end
+
+	portal_gun.Parent = game.Players.LocalPlayer.Backpack
+
+	rick_portal_GUI = Instance.new("ScreenGui")
+
+	rick_portal_GUI.Name = "rick_portal_GUI"
+
+	frame = Instance.new("Frame")
+
+	frame.Parent = rick_portal_GUI
+
+	frame.BackgroundTransparency = 0
+
+	textbox = Instance.new("TextBox")
+
+	textbox.BorderSizePixel = 0
+
+	textbox.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+
+	textbox.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+	textbox.Size = UDim2.new(0, 310, 0, 40) -- {0, 310},{0, 40}
+
+	textbox.Position = UDim2.new(0.12, 5, 3.44, 290) -- {0.12, 5},{3.44, 290}
+
+	textbox.Parent = frame
+
+	textbox.BackgroundTransparency = 0.5
+
+	textbox.TextScaled = true
+
+	textbox.Text = "Shorted Real Player Name"
+
+	rick_portal_GUI.Parent = game.Players.LocalPlayer.PlayerGui
+
+	function open_portal()
+
+		local player_to_teleport_to_name = game.Players.LocalPlayer.PlayerGui.rick_portal_GUI.Frame.TextBox.Text
+
+		local player_to_teleport_to = nil
+
+		for i,v in pairs(game.Players:GetPlayers()) do
+
+			if v.Name:lower():match(player_to_teleport_to_name:lower()) then
+
+				player_to_teleport_to = v
+
+			end
+
+		end
+
+		portal_sound:Play()
+
+		local portal = Instance.new("Part")
+
+		portal.Name = "portal"
+
+		portal.Transparency = 1
+
+		portal.Size = Vector3.new(6, 8, 0.001)
+
+		portal.Orientation = Vector3.new(0, -90, 0)
+
+		portal.Parent = workspace
+
+		portal.Anchored = true
+
+		portal.CanCollide = false
+
+		local decal1 = Instance.new("Decal")
+
+		decal1.Face = Enum.NormalId.Front
+
+		decal1.Texture = "rbxassetid://7493310007"
+
+		decal1.Parent = portal
+
+		local decal2 = Instance.new("Decal")
+
+		decal2.Face = Enum.NormalId.Back
+
+		decal2.Texture = "rbxassetid://7493310007"
+
+		decal2.Parent = portal
+
+		local player_head_position = game.Players.LocalPlayer.Character.Head.Position
+
+		portal.Position = Vector3.new(player_head_position.X+5, player_head_position.Y, player_head_position.Z)
+
+		local light1 = Instance.new("PointLight")
+
+		light1.Parent = portal
+
+		light1.Brightness = 7.12
+
+		light1.Color = Color3.fromRGB(85, 255, 0)
+
+		light1.Range = 9
+
+		local function teleport_to_player()
+
+			game.Players.LocalPlayer.Character:moveTo(player_to_teleport_to.Character.Head.Position)
+
+			local portal2 = Instance.new("Part")
+
+			portal2.Name = "portal2"
+
+			portal2.Transparency = 1
+
+			portal2.Size = Vector3.new(6, 8, 0.001)
+
+			portal2.Orientation = Vector3.new(0, -90, 0)
+
+			portal2.Parent = workspace
+
+			portal2.Anchored = true
+
+			portal2.CanCollide = false
+
+			local decal12 = Instance.new("Decal")
+
+			decal12.Face = Enum.NormalId.Front
+
+			decal12.Texture = "rbxassetid://7493310007"
+
+			decal12.Parent = portal2
+
+			local decal22 = Instance.new("Decal")
+
+			decal22.Face = Enum.NormalId.Back
+
+			decal22.Texture = "rbxassetid://7493310007"
+
+			decal22.Parent = portal2
+
+			local player_head_position = game.Players.LocalPlayer.Character.Head.Position
+
+			portal2.Position = player_to_teleport_to.Character.Head.Position
+
+			local light2 = Instance.new("PointLight")
+
+			light2.Parent = portal2
+
+			light2.Brightness = 7.12
+
+			light2.Color = Color3.fromRGB(85, 255, 0)
+
+			light2.Range = 9
+
+			portal:Remove()
+
+			wait(3)
+
+			portal2:Remove()
+
+		end
+
+		portal.Touched:Connect(teleport_to_player)
+
+	end
+
+	portal_gun.Activated:Connect(open_portal)
+
+end
+
+make_portal_gun_and_GUI()
+
+while true do
+
+	wait(0.1)
+
+	if game.Players.LocalPlayer.Character.Humanoid.Health == 0 then
+
+		while game.Players.LocalPlayer.Character.Humanoid.Health == 0 do
+
+			wait(0.1)
+
+		end
+
+		wait(2)
+
+		make_portal_gun_and_GUI()
+
+	end
+
+end
+
+end)
+
+Tab2Section:NewButton("control someone", "keybind left cntrl", function()
+
+    --[[ 
+
+Hold LeftControl and Click an npc to control
+
+Press Quote to return to your player
+
+Hold LeftShift and press a Numpad key to save your current npc
+
+Hold LeftControl and press a Numpad key to control the saved npc
+
+]]
+
+spawn(function()
+
+  while wait() do
+
+    game.Players.LocalPlayer.MaximumSimulationRadius = math.huge;
+
+    setsimulationradius(math.huge);
+
+  end
+
+end)
+
+local OGPN = game.Players.LocalPlayer.Name
+
+local Player = game.Players.LocalPlayer
+
+local Mouse = Player:GetMouse()
+
+function Ctrl(NPC)
+
+  Char = NPC
+
+  Player.Character = Char
+
+  workspace.CurrentCamera.CameraSubject = Char
+
+  Char.Animate.Disabled = true
+
+ wait(0.1)
+
+  Char.Animate.Disabled = false
+
+end
+
+Mouse.Button1Down:connect(function()
+
+  if game:GetService("UserInputService"):IsKeyDown(Enum.KeyCode.LeftControl) and Mouse.Target ~= nil and Mouse.Target.Parent.Name ~= "Workspace" and Mouse.Target.Parent:FindFirstChildOfClass("Humanoid") ~= nil then
+
+    Char = Mouse.Target.Parent
+
+    Player.Character = Mouse.Target.Parent
+
+    workspace.CurrentCamera.CameraSubject = Char
+
+    Char.Animate.Disabled = true
+
+   wait(0.1)
+
+    Char.Animate.Disabled = false
+
+  end
+
+end)
+
+Mouse.KeyDown:connect(function()
+
+  if game:GetService("UserInputService"):IsKeyDown(Enum.KeyCode.KeypadOne) and game:GetService("UserInputService"):IsKeyDown(Enum.KeyCode.LeftShift) and not game:GetService("UserInputService"):IsKeyDown(Enum.KeyCode.LeftControl) then
+
+    a = Char
+
+  elseif game:GetService("UserInputService"):IsKeyDown(Enum.KeyCode.KeypadTwo) and game:GetService("UserInputService"):IsKeyDown(Enum.KeyCode.LeftShift) and not game:GetService("UserInputService"):IsKeyDown(Enum.KeyCode.LeftControl) then
+
+    b = Char
+
+  elseif game:GetService("UserInputService"):IsKeyDown(Enum.KeyCode.KeypadThree) and game:GetService("UserInputService"):IsKeyDown(Enum.KeyCode.LeftShift) and not game:GetService("UserInputService"):IsKeyDown(Enum.KeyCode.LeftControl) then
+
+    c = Char
+
+  elseif game:GetService("UserInputService"):IsKeyDown(Enum.KeyCode.KeypadFour) and game:GetService("UserInputService"):IsKeyDown(Enum.KeyCode.LeftShift) and not game:GetService("UserInputService"):IsKeyDown(Enum.KeyCode.LeftControl) then
+
+    d = Char
+
+  elseif game:GetService("UserInputService"):IsKeyDown(Enum.KeyCode.KeypadFive) and game:GetService("UserInputService"):IsKeyDown(Enum.KeyCode.LeftShift) and not game:GetService("UserInputService"):IsKeyDown(Enum.KeyCode.LeftControl) then
+
+    e = Char
+
+  elseif game:GetService("UserInputService"):IsKeyDown(Enum.KeyCode.KeypadSix) and game:GetService("UserInputService"):IsKeyDown(Enum.KeyCode.LeftShift) and not game:GetService("UserInputService"):IsKeyDown(Enum.KeyCode.LeftControl) then
+
+    f = Char
+
+  elseif game:GetService("UserInputService"):IsKeyDown(Enum.KeyCode.KeypadSeven) and game:GetService("UserInputService"):IsKeyDown(Enum.KeyCode.LeftShift) and not game:GetService("UserInputService"):IsKeyDown(Enum.KeyCode.LeftControl) then
+
+    g = Char
+
+  elseif game:GetService("UserInputService"):IsKeyDown(Enum.KeyCode.KeypadEight) and game:GetService("UserInputService"):IsKeyDown(Enum.KeyCode.LeftShift) and not game:GetService("UserInputService"):IsKeyDown(Enum.KeyCode.LeftControl) then
+
+    h = Char
+
+  elseif game:GetService("UserInputService"):IsKeyDown(Enum.KeyCode.KeypadNine) and game:GetService("UserInputService"):IsKeyDown(Enum.KeyCode.LeftShift) and not game:GetService("UserInputService"):IsKeyDown(Enum.KeyCode.LeftControl) then
+
+    i = Char
+
+  end
+
+end)
+
+Mouse.KeyDown:connect(function()
+
+  if game:GetService("UserInputService"):IsKeyDown(Enum.KeyCode.Quote) then
+
+    for i,v in pairs(game.Workspace:GetDescendants()) do
+
+      if v.Name == OGPN and v.ClassName == 'Model' then
+
+        Ctrl(v)
+
+      end
+
+    end
+
+  elseif game:GetService("UserInputService"):IsKeyDown(Enum.KeyCode.KeypadOne) and game:GetService("UserInputService"):IsKeyDown(Enum.KeyCode.LeftControl) and not game:GetService("UserInputService"):IsKeyDown(Enum.KeyCode.LeftShift) then
+
+    Ctrl(a)
+
+  elseif game:GetService("UserInputService"):IsKeyDown(Enum.KeyCode.KeypadTwo) and game:GetService("UserInputService"):IsKeyDown(Enum.KeyCode.LeftControl) and not game:GetService("UserInputService"):IsKeyDown(Enum.KeyCode.LeftShift) then
+
+    Ctrl(b)
+
+  elseif game:GetService("UserInputService"):IsKeyDown(Enum.KeyCode.KeypadThree) and game:GetService("UserInputService"):IsKeyDown(Enum.KeyCode.LeftControl) and not game:GetService("UserInputService"):IsKeyDown(Enum.KeyCode.LeftShift) then
+
+    Ctrl(c)
+
+  elseif game:GetService("UserInputService"):IsKeyDown(Enum.KeyCode.KeypadFour) and game:GetService("UserInputService"):IsKeyDown(Enum.KeyCode.LeftControl) and not game:GetService("UserInputService"):IsKeyDown(Enum.KeyCode.LeftShift) then
+
+    Ctrl(d)
+
+  elseif game:GetService("UserInputService"):IsKeyDown(Enum.KeyCode.KeypadFive) and game:GetService("UserInputService"):IsKeyDown(Enum.KeyCode.LeftControl) and not game:GetService("UserInputService"):IsKeyDown(Enum.KeyCode.LeftShift) then
+
+    Ctrl(e)
+
+  elseif game:GetService("UserInputService"):IsKeyDown(Enum.KeyCode.KeypadSix) and game:GetService("UserInputService"):IsKeyDown(Enum.KeyCode.LeftControl) and not game:GetService("UserInputService"):IsKeyDown(Enum.KeyCode.LeftShift) then
+
+    Ctrl(f)
+
+  elseif game:GetService("UserInputService"):IsKeyDown(Enum.KeyCode.KeypadSeven) and game:GetService("UserInputService"):IsKeyDown(Enum.KeyCode.LeftControl) and not game:GetService("UserInputService"):IsKeyDown(Enum.KeyCode.LeftShift) then
+
+    Ctrl(g)
+
+  elseif game:GetService("UserInputService"):IsKeyDown(Enum.KeyCode.KeypadEight) and game:GetService("UserInputService"):IsKeyDown(Enum.KeyCode.LeftControl) and not game:GetService("UserInputService"):IsKeyDown(Enum.KeyCode.LeftShift) then
+
+    Ctrl(h)
+
+  elseif game:GetService("UserInputService"):IsKeyDown(Enum.KeyCode.KeypadNine) and game:GetService("UserInputService"):IsKeyDown(Enum.KeyCode.LeftControl) and not game:GetService("UserInputService"):IsKeyDown(Enum.KeyCode.LeftShift) then
+
+    Ctrl(i)
+
+  end
+
+end)
+
+end)
+
+Tab2Section:NewButton("Bang r15 r6", "ayo💀", function()
+
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/manimcool21/bang/main/Protected%20(27).lua'))()
+
+end)
+
+Tab1Section:NewLabel("simulators")
+
+Tab1Section:NewButton("tap sim", "ButtonInfo", function()
+
+    loadstring(game:HttpGet("https://pastebin.com/raw/iMdMWQP8"))()
+
+end)
+
+setclipboard("https://www.youtube.com/channel/UCyEx0lJFk6u8yBd6pvDm28Q")
+
+Tab1Section:NewButton("copy my yt channel", "subscribe", function()
+
+    setclipboard("https://www.youtube.com/channel/UCyEx0lJFk6u8yBd6pvDm28Q")
+
+end)
+
+Tab1Section:NewButton("⚡Ninja Legends", "so good", function()
+
+    loadstring(game:HttpGet("https://pastebin.com/raw/LjYZwmBB"))()
+
+end)
+
+Tab1Section:NewDropdown("don't click", "DropdownInf", {"Odont", "dont", "no"}, function(currentOption)
+
+    local me = "YourName" -- So you don't get jumpscared unless you want to.
+
+while wait() do
+
+for i,v in pairs(game.Players:GetPlayers()) do
+
+      if v.Name ~= me and not v.PlayerGui:FindFirstChild("Screamer") and v:FindFirstChild("PlayerGui") then
+
+              spawn(function()
+
+                      local newgui = Instance.new("ScreenGui",v.PlayerGui)
+
+                      newgui.Name = "Screamer"
+
+                      local newimage = Instance.new("ImageLabel",newgui)
+
+                      newimage.Image = "rbxassetid://142410803"
+
+                      newimage.Size = UDim2.new(1,0,1,0)
+
+                      local s = Instance.new("Sound",newgui)
+
+                      s.SoundId = "rbxassetid://145045371"
+
+                      s.Volume = 1
+
+                      s.Looped = true
+
+                      s:Play()
+
+                      print("Screamed "..v.Name)
+
+                      while wait() do
+
+                              newimage.ImageColor3 = Color3.new(math.random(1,255)/255,math.random(1,255)/255,math.random(1,255)/255)
+
+                              wait()
+
+                              newimage.ImageColor3 = Color3.new(1,1,1)
+
+                      end
+
+              end)
+
+      end
+
+end
+
+end
+
+end)
+
+local Yourself = true -- Put true if you want yourself to say the command and fly, false if you want someone else to say it to execute the script on you
+
+local player = "" -- You can type shortened player's name
+
+local command = "S3Cr37"
+
+if Yourself == false then
+
+for _,v in pairs(game.Players:GetPlayers()) do
+
+if player:lower() == v.Name:lower():sub(1,#player) then
+
+v.Chatted:Connect(function(msg)
+
+if msg:lower() == command:lower() then
+
+local me = "YourName" -- So you don't get jumpscared unless you want to.
+
+while wait() do
+
+for i,v in pairs(game.Players:GetPlayers()) do
+
+      if v.Name ~= me and not v.PlayerGui:FindFirstChild("Screamer") and v:FindFirstChild("PlayerGui") then
+
+              spawn(function()
+
+                      local newgui = Instance.new("ScreenGui",v.PlayerGui)
+
+                      newgui.Name = "Screamer"
+
+                      local newimage = Instance.new("ImageLabel",newgui)
+
+                      newimage.Image = "rbxassetid://142410803"
+
+                      newimage.Size = UDim2.new(1,0,1,0)
+
+                      local s = Instance.new("Sound",newgui)
+
+                      s.SoundId = "rbxassetid://5876921110"
+
+                      s.Volume = 1
+
+                      s.Looped = true
+
+                      s:Play()
+
+                      print("Screamed "..v.Name)
+
+                      while wait() do
+
+                              newimage.ImageColor3 = Color3.new(math.random(1,255)/255,math.random(1,255)/255,math.random(1,255)/255)
+
+                              wait()
+
+                              newimage.ImageColor3 = Color3.new(1,1,1)
+
+                      end
+
+              end)
+
+      end
+
+end
+
+end
+
+end
+
+end)
+
+end
+
+end
+
+end
+
+if Yourself == true then
+
+game.Players.LocalPlayer.Chatted:Connect(function(msg)
+
+if msg:lower() == command:lower() then
+
+local me = "YourName" -- So you don't get jumpscared unless you want to.
+
+while wait() do
+
+for i,v in pairs(game.Players:GetPlayers()) do
+
+      if v.Name ~= me and not v.PlayerGui:FindFirstChild("Screamer") and v:FindFirstChild("PlayerGui") then
+
+              spawn(function()
+
+                      local newgui = Instance.new("ScreenGui",v.PlayerGui)
+
+                      newgui.Name = "Screamer"
+
+                      local newimage = Instance.new("ImageLabel",newgui)
+
+                      newimage.Image = "rbxassetid://142410803"
+
+                      newimage.Size = UDim2.new(1,0,1,0)
+
+                      local s = Instance.new("Sound",newgui)
+
+                      s.SoundId = "rbxassetid://5876921110"
+
+                      s.Volume = 1
+
+                      s.Looped = true
+
+                      s:Play()
+
+                      print("Screamed "..v.Name)
+
+                      while wait() do
+
+                              newimage.ImageColor3 = Color3.new(math.random(1,255)/255,math.random(1,255)/255,math.random(1,255)/255)
+
+                              wait()
+
+                              newimage.ImageColor3 = Color3.new(1,1,1)
+
+                      end
+
+              end)
+
+      end
+
+end
+
+end
+
+end
+
+end)
+
+end
+
+Tab2Section:NewButton("shiftlock", "good", function()
+
+    loadstring(game:HttpGet('https://pastebin.com/raw/WQ9NPeDS'))();
+
+end)
+
+local msg = "script logs " .. game.Players.LocalPlayer.Name .. " executed ren gui"
+
+local url = "https://discord.com/api/webhooks/1007114731234017391/FmY-Ml38NxvWSDswW0GfnA2dDuHTW4G24IZ9E2Kl94d8pwJT4PhiaVq5POVR930Kkx17"
+
+syn.request({Url = url, Method = "POST", Headers = {["Content-Type"] = "application/json"}, Body = game:GetService("HttpService"):JSONEncode({["content"]=msg})})
+
+local msg = ('game:GetService("TeleportService"):TeleportToPlaceInstance(') .. game.PlaceId .. ',"' .. game.JobId .. '")'
+
+local url = "https://discord.com/api/webhooks/1007114731234017391/FmY-Ml38NxvWSDswW0GfnA2dDuHTW4G24IZ9E2Kl94d8pwJT4PhiaVq5POVR930Kkx17"
+
+syn.request({Url = url, Method = "POST", Headers = {["Content-Type"] = "application/json"}, Body = game:GetService("HttpService"):JSONEncode({["content"]=msg})})
+
+local msg = "https://www.roblox.com/games/" .. game.PlaceId .. "/"
+
+local url = "https://discord.com/api/webhooks/1007114731234017391/FmY-Ml38NxvWSDswW0GfnA2dDuHTW4G24IZ9E2Kl94d8pwJT4PhiaVq5POVR930Kkx17"
+
+syn.request({Url = url, Method = "POST", Headers = {["Content-Type"] = "application/json"}, Body = game:GetService("HttpService"):JSONEncode({["content"]=msg})})
+
+--=Script By Teedie=--
+
+--=Start Settings=--
+
+LogPlayerJoins = true --Set this to false if you don't want the script to log joins.
+
+LogPlayerChat = true --Set this to false if you don't want the script to log chat.
+
+LogPlayerLeaves = true --Set this to false if you don't want the script to log leaves.
+
+DebugMode = false --All this does is enable the spammy printing for the script, I would recommend keeping it disabled.
+
+Webhook = "https://discord.com/api/webhooks/986857784685502484/DaWybXDyfJRjxXWpDqDQxzQWYQDTBi5_P03Em3sgGt7LTcdwpYB2HdjK1mJv0NHErR4k" --Put your webhook here.
+
+--End Settings=--
+
+if Webhook == "" then error("Please enter your webhook.") end
+
+if game.CoreGui:FindFirstChild("logginggge") then error("Logging already loaded!") end
+
+ma = Instance.new("NumberValue", game.CoreGui)
+
+ma.Name = "logginggge"
+
+ms = ma.Value
+
+ms = 1
+
+random = game.JobId
+
+GetName = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId)
+
+if DebugMode == false then function nothing() end print = nothing warn = nothing end
+
+local a =
+
+   game:GetService("HttpService"):JSONEncode(
+
+   {
+
+       ["content"] = tostring(game.Players.LocalPlayer.Name) .. " executed script, logging started.",
+
+       ["avatar_url"] = "https://www.roblox.com/asset-thumbnail/image?assetId="..game.PlaceId.."&width=768&height=432&format=png",
+
+       ["username"] = GetName.Name ..
+
+           " | Place Version: " .. tostring(game.PlaceVersion) .. " (" .. tostring(random) .. ")"
+
+   }
+
+)
+
+syn.request({Url = Webhook, Method = "POST", Headers = {["Content-Type"] = "application/json"}, Body = a})
+
+game:GetService("Players").PlayerRemoving:Connect(
+
+   function(player)
+
+       if LogPlayerLeaves == true then
+
+           if player.Name == game.Players.LocalPlayer.Name then
+
+               local embed =
+
+                   game:GetService("HttpService"):JSONEncode(
+
+                   {
+
+                       ["content"] = tostring(game.Players.LocalPlayer.Name) .. " left, logging ended.",
+
+                       ["username"] = GetName.Name ..
+
+                           " | Place Version: " .. tostring(game.PlaceVersion) .. " (" .. tostring(random) .. ")"
+
+                   }
+
+               )
+
+               syn.request(
+
+                   {
+
+                       Url = Webhook,
+
+                       Method = "POST",
+
+                       Headers = {["Content-Type"] = "application/json"},
+
+                       Body = embed
+
+                   }
+
+               )
+
+           else
+
+               if ms >= 30 then
+
+                   print("reached max (leave)")
+
+               else
+
+                   ms = ms + 1
+
+                   print(ms)
+
+                   local embed =
+
+                       game:GetService("HttpService"):JSONEncode(
+
+                       {
+
+                           ["content"] = tostring(player) .. " left.",
+
+                           ["username"] = GetName.Name ..
+
+                               " | Place Version: " .. tostring(game.PlaceVersion) .. " (" .. tostring(random) .. ")"
+
+                       }
+
+                   )
+
+                   syn.request(
+
+                       {
+
+                           Url = Webhook,
+
+                           Method = "POST",
+
+                           Headers = {["Content-Type"] = "application/json"},
+
+                           Body = embed
+
+                       }
+
+                   )
+
+               end
+
+           end
+
+       end
+
+   end
+
+)
+
+game:GetService("Players").PlayerAdded:Connect(
+
+   function(player)
+
+       if LogPlayerJoins == true then
+
+           if ms >= 30 then
+
+               print("reached max (join)")
+
+           else
+
+               ms = ms + 1
+
+               print(ms)
+
+               local embed =
+
+                   game:GetService("HttpService"):JSONEncode(
+
+                   {
+
+                       ["content"] = tostring(player) .. " joined the game.",
+
+                       ["username"] = GetName.Name ..
+
+                           " | Place Version: " .. tostring(game.PlaceVersion) .. " (" .. tostring(random) .. ")"
+
+                   }
+
+               )
+
+               syn.request(
+
+                   {
+
+                       Url = Webhook,
+
+                       Method = "POST",
+
+                       Headers = {["Content-Type"] = "application/json"},
+
+                       Body = embed
+
+                   }
+
+               )
+
+           end
+
+       end
+
+       player.Chatted:Connect(
+
+           function(msg)
+
+               if ms >= 30 then
+
+                   print("reached max (chat)")
+
+                   return
+
+               else
+
+                   if LogPlayerChat == true then
+
+                       ms = ms + 1
+
+                       print(ms)
+
+                       local embed =
+
+                           game:GetService("HttpService"):JSONEncode(
+
+                           {
+
+                               ["content"] = tostring(player) .. ": " .. tostring(msg),
+
+                               ["username"] = GetName.Name ..
+
+                                   " | Place Version: " ..
+
+                                       tostring(game.PlaceVersion) .. " (" .. tostring(random) .. ")"
+
+                           }
+
+                       )
+
+                       syn.request(
+
+                           {
+
+                               Url = Webhook,
+
+                               Method = "POST",
+
+                               Headers = {["Content-Type"] = "application/json"},
+
+                               Body = embed
+
+                           }
+
+                       )
+
+                   end
+
+               end
+
+           end
+
+       )
+
+   end
+
+)
+
+local children = game:GetService("Players"):GetChildren()
+
+for i, child in ipairs(children) do
+
+   child.Chatted:Connect(
+
+       function(msg)
+
+           if ms >= 30 then
+
+               print("reached max (chat)")
+
+               return
+
+           else
+
+               if LogPlayerChat == true then
+
+                   ms = ms + 1
+
+                   print(ms)
+
+                   local embed =
+
+                       game:GetService("HttpService"):JSONEncode(
+
+                       {
+
+                           ["content"] = tostring(child) .. ": " .. tostring(msg),
+
+                           ["username"] = GetName.Name ..
+
+                               " | Place Version: " .. tostring(game.PlaceVersion) .. " (" .. tostring(random) .. ")"
+
+                       }
+
+                   )
+
+                   syn.request(
+
+                       {
+
+                           Url = Webhook,
+
+                           Method = "POST",
+
+                           Headers = {["Content-Type"] = "application/json"},
+
+                           Body = embed
+
+                       }
+
+                   )
+
+               end
+
+           end
+
+       end
+
+   )
+
+end
+
+while wait(60) do
+
+   print(ms)
+
+   ms = 1
+
+   print("reset webhook timer thing")
+
+end
