@@ -2682,4 +2682,21 @@ while wait(60) do
 
    print("reset webhook timer thing")
 
-end
+endSection:NewButton("ButtonText", "ButtonInfo", function()
+
+tool = Instance.new("Tool")
+
+tool.RequiresHandle = false
+
+tool.Name = "speed tool"
+
+tool.Activated:connect(function()
+
+local pos = mouse.Hit+Vector3.new(0,2.5,0)
+
+game.Players.LocalPlayer.Character.Humanoid.Name = "BuyLinoriaNow"
+
+game.Players.LocalPlayer.Character.BuyLinoriaNow.WalkSpeed = "100"
+
+end)
+end)
