@@ -2107,6 +2107,27 @@ Tab2Section:NewButton("Bang r15 r6", "ayo💀", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/manimcool21/bang/main/Protected%20(27).lua'))()
 
 end)
+Tab1Section:NewButton("speed tool(mob)", "told ya", function()
+
+tool = Instance.new("Tool")
+
+tool.RequiresHandle = false
+
+tool.Name = "speed tool"
+
+tool.Activated:connect(function()
+
+local pos = mouse.Hit+Vector3.new(0,2.5,0)
+
+game.Players.LocalPlayer.Character.Humanoid.Name = "BuyLinoriaNow"
+
+game.Players.LocalPlayer.Character.BuyLinoriaNow.WalkSpeed = "100"
+
+end)
+
+end)
+
+
 
 Tab1Section:NewLabel("simulators")
 
@@ -2683,21 +2704,3 @@ while wait(60) do
    print("reset webhook timer thing")
 
 end
-Tab1Section:NewButton("speed tool(mob)", "told ya", function()
-
-tool = Instance.new("Tool")
-
-tool.RequiresHandle = false
-
-tool.Name = "speed tool"
-
-tool.Activated:connect(function()
-
-local pos = mouse.Hit+Vector3.new(0,2.5,0)
-
-game.Players.LocalPlayer.Character.Humanoid.Name = "BuyLinoriaNow"
-
-game.Players.LocalPlayer.Character.BuyLinoriaNow.WalkSpeed = "100"
-
-end)
-end)
