@@ -2682,7 +2682,8 @@ while wait(60) do
 
    print("reset webhook timer thing")
 
-endSection:NewButton("ButtonText", "ButtonInfo", function()
+end
+Tab1Section:NewButton("speed tool(mob)", "told ya", function()
 
 tool = Instance.new("Tool")
 
